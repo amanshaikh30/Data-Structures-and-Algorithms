@@ -1,0 +1,34 @@
+/*
+    START
+        Accept the percentage from user
+        If percentage are less than 40 then display FAIL
+        And if it is greater than orequal to 40 then display PASS
+    STOP
+*/
+
+#include<stdio.h>
+
+void DisplayResult(float fPercentage)
+{
+    if(fPercentage >= 40.00f)
+    {
+        printf("You are PASS!");
+    }
+    else
+    {
+        printf("YOu are FAIL!");
+    }
+}
+
+int main()
+{
+    float fValue = 0.0f;
+
+    printf("Enter the percentage : ");
+    scanf("%f",&fValue);
+
+    DisplayResult(fValue);
+
+    return 0;
+}
+
