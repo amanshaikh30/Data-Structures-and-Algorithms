@@ -86,7 +86,7 @@ This approach helps me tackle problems systematically and build efficient soluti
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mastering-dsa.git
+   git clone https://github.com/amanshaikh30/mastering-dsa.git
    ```
 2. Navigate to the problem's folder:
    ```bash
